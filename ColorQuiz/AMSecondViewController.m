@@ -80,8 +80,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 8;
-    //warning magic number! this is the number of colors.
+    return [answers count];
 }
 
 
