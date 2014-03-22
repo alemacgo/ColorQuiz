@@ -9,7 +9,6 @@
 #import "AMFirstViewController.h"
 
 @interface AMFirstViewController () {
-    AMColor *currentColor;
     NSArray *answers;
 }
 
@@ -30,8 +29,7 @@
 {
     [super viewDidLoad];
     
-    // Initialize the color with all zeroes, only done once in the entire application.
-    currentColor = [[AMColor alloc] init];
+    self.currentColor = [[AMColor alloc] init];
     
     // Include the options for this particular question
     answers = [NSArray arrayWithObjects:
@@ -59,9 +57,7 @@
                  [[AMAnswer alloc] initFromText:@"Drawing, painting, singing"
                                       withColor:[[AMColor alloc]
                                       initFromColorName:@"orange"]],
-                 nil];
-    //NSLog(@"%@\n", currentColor);
-    
+                 nil];    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -145,14 +141,12 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     // Get the new view controller using [segue destinationViewController].
-    AMResultViewController *rvc = [segue destinationViewController];
-    
+    AMSecondViewController *rvc = [segue destinationViewController];
+
     // Pass the selected object to the new view controller.
     int index = self.tableView.indexPathForSelectedRow.row;
-    currentColor = [currentColor addColor: ((AMAnswer*) [answers objectAtIndex:index]).color];
-    rvc.currentColor = currentColor;
-    NSLog(@"table element %d\n",self.tableView.indexPathForSelectedRow.row);
-    NSLog(@"%@", [answers objectAtIndex:self.tableView.indexPathForSelectedRow.row]);
+    rvc.currentColor = [self.currentColor addColor: ((AMAnswer*) [answers objectAtIndex:index]).color];
+    NSLog(@"%@", rvc.currentColor);
 }
 
 @end

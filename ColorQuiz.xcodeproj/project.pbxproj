@@ -24,6 +24,7 @@
 		7105E83318DDFF92003572D7 /* AMFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E83218DDFF92003572D7 /* AMFirstViewController.m */; };
 		7105E83918DE002C003572D7 /* AMResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E83818DE002C003572D7 /* AMResultViewController.m */; };
 		7105E83D18DE10C2003572D7 /* AMAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E83C18DE10C2003572D7 /* AMAnswer.m */; };
+		7105E84018DE2396003572D7 /* AMSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E83F18DE2396003572D7 /* AMSecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		7105E83818DE002C003572D7 /* AMResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMResultViewController.m; path = ../AMResultViewController.m; sourceTree = "<group>"; };
 		7105E83B18DE10C2003572D7 /* AMAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAnswer.h; sourceTree = "<group>"; };
 		7105E83C18DE10C2003572D7 /* AMAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAnswer.m; sourceTree = "<group>"; };
+		7105E83E18DE2396003572D7 /* AMSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSecondViewController.h; sourceTree = "<group>"; };
+		7105E83F18DE2396003572D7 /* AMSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 				7105E80B18DDFA1E003572D7 /* Main.storyboard */,
 				7105E83118DDFF92003572D7 /* AMFirstViewController.h */,
 				7105E83218DDFF92003572D7 /* AMFirstViewController.m */,
+				7105E83E18DE2396003572D7 /* AMSecondViewController.h */,
+				7105E83F18DE2396003572D7 /* AMSecondViewController.m */,
 				7105E83718DE002C003572D7 /* AMResultViewController.h */,
 				7105E83818DE002C003572D7 /* AMResultViewController.m */,
 				7105E81118DDFA1E003572D7 /* Images.xcassets */,
@@ -276,6 +281,7 @@
 				7105E80A18DDFA1E003572D7 /* AMAppDelegate.m in Sources */,
 				7105E83D18DE10C2003572D7 /* AMAnswer.m in Sources */,
 				7105E83918DE002C003572D7 /* AMResultViewController.m in Sources */,
+				7105E84018DE2396003572D7 /* AMSecondViewController.m in Sources */,
 				7105E83018DDFEBC003572D7 /* AMColor.m in Sources */,
 				7105E80618DDFA1E003572D7 /* main.m in Sources */,
 				7105E83318DDFF92003572D7 /* AMFirstViewController.m in Sources */,

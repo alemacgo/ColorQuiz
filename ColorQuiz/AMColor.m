@@ -31,7 +31,6 @@
         self.pink = [[components objectAtIndex:5] intValue];
         self.black = [[components objectAtIndex:6] intValue];
         self.orange = [[components objectAtIndex:7] intValue];
-        NSLog(@"%@\n",[components objectAtIndex:0]);
     }
     return self;
 }

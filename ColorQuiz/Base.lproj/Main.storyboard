@@ -21,7 +21,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="Tf3-wk-Sm4" kind="push" id="mrr-5H-YYn"/>
+                                    <segue destination="xR6-m5-oMK" kind="push" id="VER-Hv-cVW"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -53,7 +53,39 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mzj-e9-Mir" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1538" y="102"/>
+            <point key="canvasLocation" x="1924" y="102"/>
+        </scene>
+        <!--Second View Controller - What is your personality like?-->
+        <scene sceneID="R5F-eQ-hMo">
+            <objects>
+                <tableViewController id="xR6-m5-oMK" customClass="AMSecondViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="9HT-tW-qfz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="kY6-RU-5Gm">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kY6-RU-5Gm" id="Cr8-tY-SqI">
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="Tf3-wk-Sm4" kind="push" id="dv1-Ee-dtG"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="xR6-m5-oMK" id="wgd-B2-RZG"/>
+                            <outlet property="delegate" destination="xR6-m5-oMK" id="mhD-kJ-jp6"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="What is your personality like?" id="FFe-rZ-7J6"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dYY-JI-NpL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1491" y="102"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="9kE-On-BII">
