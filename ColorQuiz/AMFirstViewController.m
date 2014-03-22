@@ -31,14 +31,30 @@
     [super viewDidLoad];
     currentColor = [[AMColor alloc] init];
     questions = [NSArray arrayWithObjects:
-                 @"Swimming and relaxing",
-                 @"Being outside",
-                 @"Talking and partying",
-                 @"Playing sports",
-                 @"Reading and playing videogames",
-                 @"Shopping and dressing up",
-                 @"Being alone and thinking",
-                 @"Drawing, painting and singing",
+                [[AMAnswer alloc] initFromText:@"Swimming, relaxing"
+                                withColor:[[AMColor alloc]
+                                initFromColorName:@"blue"]],
+                 [[AMAnswer alloc] initFromText:@"Being outside"
+                                      withColor:[[AMColor alloc]
+                                      initFromColorName:@"green"]],
+                 [[AMAnswer alloc] initFromText:@"Talking, partying"
+                                      withColor:[[AMColor alloc]
+                                      initFromColorName:@"yellow"]],
+                 [[AMAnswer alloc] initFromText:@"Playing sports"
+                                      withColor:[[AMColor alloc]
+                                      initFromColorName:@"red"]],
+                 [[AMAnswer alloc] initFromText:@"Reading, playing video games"
+                                      withColor:[[AMColor alloc]
+                                      initFromColorName:@"purple"]],
+                 [[AMAnswer alloc] initFromText:@"Shopping, dressing up"
+                                      withColor:[[AMColor alloc]
+                                      initFromColorName:@"pink"]],
+                 [[AMAnswer alloc] initFromText:@"Being alone, thinking"
+                                      withColor:[[AMColor alloc]
+                                      initFromColorName:@"black"]],
+                 [[AMAnswer alloc] initFromText:@"Drawing, painting, singing"
+                                      withColor:[[AMColor alloc]
+                                      initFromColorName:@"orange"]],
                  nil];
     //NSLog(@"%@\n", currentColor);
     
@@ -74,7 +90,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     
     // Configure the cell...
-    cell.textLabel.text = [questions objectAtIndex:indexPath.row];
+    cell.textLabel.text = ((AMAnswer *)[questions objectAtIndex:indexPath.row]).text;
     // This is what maps the questions array with the cells!
     
     return cell;
@@ -119,15 +135,17 @@
 }
 */
 
-/*
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     // Get the new view controller using [segue destinationViewController].
+    AMResultViewController *rvc = [segue destinationViewController];
     // Pass the selected object to the new view controller.
+    [rvc.currentColor addColor:currentColor];
+    NSLog(@"table element %d\n",self.tableView.indexPathForSelectedRow.row);
+    NSLog(@"%@", [questions objectAtIndex:self.tableView.indexPathForSelectedRow.row]);
 }
-*/
 
 @end

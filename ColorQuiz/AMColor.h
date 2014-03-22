@@ -10,13 +10,18 @@
 
 @interface AMColor : NSObject
 
-@property (nonatomic) double blue;
-@property (nonatomic) double green;
-@property (nonatomic) double yellow;
-@property (nonatomic) double red;
-@property (nonatomic) double purple;
-@property (nonatomic) double pink;
-@property (nonatomic) double black;
-@property (nonatomic) double orange;
+@property (nonatomic) int blue;
+@property (nonatomic) int green;
+@property (nonatomic) int yellow;
+@property (nonatomic) int red;
+@property (nonatomic) int purple;
+@property (nonatomic) int pink;
+@property (nonatomic) int black;
+@property (nonatomic) int orange;
+
+-(id)initFromString:(NSString*) string;
+-(id)initFromColorName:(NSString*) colorName;
+
+-(AMColor*)addColor:(AMColor*) otherColor;
 
 @end

@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AMResultViewController.h"
+
 #import "AMColor.h"
+#import "AMAnswer.h"
 
 @interface AMFirstViewController : UITableViewController
 
