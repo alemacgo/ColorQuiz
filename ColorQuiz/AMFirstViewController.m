@@ -31,10 +31,16 @@
     [super viewDidLoad];
     currentColor = [[AMColor alloc] init];
     questions = [NSArray arrayWithObjects:
-                 @"Question 1",
-                 @"Question 2",
+                 @"Swimming and relaxing",
+                 @"Being outside",
+                 @"Talking and partying",
+                 @"Playing sports",
+                 @"Reading and playing videogames",
+                 @"Shopping and dressing up",
+                 @"Being alone and thinking",
+                 @"Drawing, painting and singing",
                  nil];
-    NSLog(@"%@\n", currentColor);
+    //NSLog(@"%@\n", currentColor);
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -68,8 +74,8 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     
     // Configure the cell...
-    cell.textLabel.text = @"hola";
-    //[questions objectAtIndex:indexPath.row];
+    cell.textLabel.text = [questions objectAtIndex:indexPath.row];
+    // This is what maps the questions array with the cells!
     
     return cell;
 }

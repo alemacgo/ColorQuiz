@@ -11,8 +11,8 @@
 @implementation AMColor
 
 -(NSString *)description{
-    return @"a";
-    //return @"blue: %f, green: %f, yellow: %f", self.blue, self.green, self.yellow;
+    // this is the __string__ method in python
+    return [NSString stringWithFormat:@"blue: %f\n", self.blue];
 }
 
 @end

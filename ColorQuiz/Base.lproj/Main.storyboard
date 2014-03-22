@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--First View Controller-->
+        <!--First View Controller - Which hobbie do you prefer?-->
         <scene sceneID="o5q-nY-k66">
             <objects>
                 <tableViewController id="lL9-OS-VMo" customClass="AMFirstViewController" sceneMemberID="viewController">
@@ -30,7 +30,7 @@
                             <outlet property="delegate" destination="lL9-OS-VMo" id="C7J-CU-uc7"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="mvV-k3-g0v"/>
+                    <navigationItem key="navigationItem" title="Which hobbie do you prefer?" id="mvV-k3-g0v"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lFK-pt-NSW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
