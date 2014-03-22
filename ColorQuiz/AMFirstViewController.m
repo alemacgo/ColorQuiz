@@ -10,7 +10,7 @@
 
 @interface AMFirstViewController () {
     AMColor *currentColor;
-    NSArray *questions;
+    NSArray *answers;
 }
 
 @end
@@ -29,8 +29,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    // Initialize the color with all zeroes, only done once in the entire application.
     currentColor = [[AMColor alloc] init];
-    questions = [NSArray arrayWithObjects:
+    
+    // Include the options for this particular question
+    answers = [NSArray arrayWithObjects:
                 [[AMAnswer alloc] initFromText:@"Swimming, relaxing"
                                 withColor:[[AMColor alloc]
                                 initFromColorName:@"blue"]],
@@ -90,8 +94,8 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     
     // Configure the cell...
-    cell.textLabel.text = ((AMAnswer *)[questions objectAtIndex:indexPath.row]).text;
-    // This is what maps the questions array with the cells!
+    cell.textLabel.text = ((AMAnswer *)[answers objectAtIndex:indexPath.row]).text;
+    // This is what maps the answers array with the cells!
     
     return cell;
 }
@@ -142,10 +146,13 @@
 {
     // Get the new view controller using [segue destinationViewController].
     AMResultViewController *rvc = [segue destinationViewController];
+    
     // Pass the selected object to the new view controller.
-    [rvc.currentColor addColor:currentColor];
+    int index = self.tableView.indexPathForSelectedRow.row;
+    currentColor = [currentColor addColor: ((AMAnswer*) [answers objectAtIndex:index]).color];
+    rvc.currentColor = currentColor;
     NSLog(@"table element %d\n",self.tableView.indexPathForSelectedRow.row);
-    NSLog(@"%@", [questions objectAtIndex:self.tableView.indexPathForSelectedRow.row]);
+    NSLog(@"%@", [answers objectAtIndex:self.tableView.indexPathForSelectedRow.row]);
 }
 
 @end
