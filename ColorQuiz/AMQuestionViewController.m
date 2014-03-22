@@ -6,15 +6,13 @@
 //  Copyright (c) 2014 M-ITI. All rights reserved.
 //
 
-#import "AMFirstViewController.h"
+#import "AMQuestionViewController.h"
 
-@interface AMFirstViewController () {
-    NSArray *answers;
-}
+@interface AMQuestionViewController ()
 
 @end
 
-@implementation AMFirstViewController
+@implementation AMQuestionViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -30,34 +28,7 @@
     [super viewDidLoad];
     
     self.currentColor = [[AMColor alloc] init];
-    
-    // Include the options for this particular question
-    answers = [NSArray arrayWithObjects:
-                [[AMAnswer alloc] initFromText:@"Swimming, relaxing"
-                                withColor:[[AMColor alloc]
-                                initFromColorName:@"blue"]],
-                 [[AMAnswer alloc] initFromText:@"Being outside"
-                                      withColor:[[AMColor alloc]
-                                      initFromColorName:@"green"]],
-                 [[AMAnswer alloc] initFromText:@"Talking, partying"
-                                      withColor:[[AMColor alloc]
-                                      initFromColorName:@"yellow"]],
-                 [[AMAnswer alloc] initFromText:@"Playing sports"
-                                      withColor:[[AMColor alloc]
-                                      initFromColorName:@"red"]],
-                 [[AMAnswer alloc] initFromText:@"Reading, playing video games"
-                                      withColor:[[AMColor alloc]
-                                      initFromColorName:@"purple"]],
-                 [[AMAnswer alloc] initFromText:@"Shopping, dressing up"
-                                      withColor:[[AMColor alloc]
-                                      initFromColorName:@"pink"]],
-                 [[AMAnswer alloc] initFromText:@"Being alone, thinking"
-                                      withColor:[[AMColor alloc]
-                                      initFromColorName:@"black"]],
-                 [[AMAnswer alloc] initFromText:@"Drawing, painting, singing"
-                                      withColor:[[AMColor alloc]
-                                      initFromColorName:@"orange"]],
-                 nil];    
+       
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -80,7 +51,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [answers count];
+    return [self.answers count];
 }
 
 
@@ -89,7 +60,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
     
     // Configure the cell...
-    cell.textLabel.text = ((AMAnswer *)[answers objectAtIndex:indexPath.row]).text;
+    cell.textLabel.text = ((AMAnswer *)[self.answers objectAtIndex:indexPath.row]).text;
     // This is what maps the answers array with the cells!
     
     return cell;
@@ -139,12 +110,13 @@
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
+    NSLog(@"some");
     // Get the new view controller using [segue destinationViewController].
-    AMSecondViewController *rvc = [segue destinationViewController];
+    AMQuestionViewController *rvc = [segue destinationViewController];
 
     // Pass the selected object to the new view controller.
     int index = self.tableView.indexPathForSelectedRow.row;
-    rvc.currentColor = [self.currentColor addColor: ((AMAnswer*) [answers objectAtIndex:index]).color];
+    rvc.currentColor = [self.currentColor addColor: ((AMAnswer*) [self.answers objectAtIndex:index]).color];
     NSLog(@"%@", rvc.currentColor);
 }
 

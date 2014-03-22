@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--First View Controller - Which hobbie do you prefer?-->
+        <!--Question1 View Controller - Which hobbie do you prefer?-->
         <scene sceneID="o5q-nY-k66">
             <objects>
-                <tableViewController id="lL9-OS-VMo" customClass="AMFirstViewController" sceneMemberID="viewController">
+                <tableViewController id="lL9-OS-VMo" customClass="AMQuestion1ViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="moa-Re-leM">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -55,10 +55,10 @@
             </objects>
             <point key="canvasLocation" x="1924" y="102"/>
         </scene>
-        <!--Second View Controller - What is your personality like?-->
+        <!--Question2 View Controller - What is your personality like?-->
         <scene sceneID="R5F-eQ-hMo">
             <objects>
-                <tableViewController id="xR6-m5-oMK" customClass="AMSecondViewController" sceneMemberID="viewController">
+                <tableViewController id="xR6-m5-oMK" customClass="AMQuestion2ViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="9HT-tW-qfz">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

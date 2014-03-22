@@ -1,5 +1,5 @@
 //
-//  AMResultViewController.h
+//  AMQuestion2ViewController.h
 //  ColorQuiz
 //
 //  Created by Alejandro Machado on 14/3/22.
@@ -8,6 +8,6 @@
 
 #import "AMQuestionViewController.h"
 
-@interface AMResultViewController : AMQuestionViewController
+@interface AMQuestion2ViewController : AMQuestionViewController
 
 @end
