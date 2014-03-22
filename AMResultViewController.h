@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "AMColor.h"
+#import "AMColorView.h"
 
 @interface AMResultViewController : UIViewController
 

@@ -26,7 +26,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor redColor];
+    // Compute the color
+
+    AMColorView* colorView = [[AMColorView alloc] initWithFrame:CGRectMake(0,0,196,196) withColor:[UIColor blueColor]];
+    
+    NSString* colorName;
+    colorName = @"Yellow";
+    
+    // Alter label
+    if ([self.view.subviews count] >= 1)
+        ((UILabel*) [self.view.subviews objectAtIndex:1]).text = colorName;
+    
+    colorView.backgroundColor = [UIColor clearColor];
+    colorView.center = self.view.center;
+    [self.view addSubview:colorView];
     // Do any additional setup after loading the view.
 }
 

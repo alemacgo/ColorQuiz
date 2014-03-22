@@ -21,10 +21,11 @@
 		7105E82318DDFA1F003572D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7105E82118DDFA1F003572D7 /* InfoPlist.strings */; };
 		7105E82518DDFA1F003572D7 /* ColorQuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E82418DDFA1F003572D7 /* ColorQuizTests.m */; };
 		7105E83018DDFEBC003572D7 /* AMColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E82F18DDFEBC003572D7 /* AMColor.m */; };
-		7105E83318DDFF92003572D7 /* AMFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E83218DDFF92003572D7 /* AMFirstViewController.m */; };
+		7105E83318DDFF92003572D7 /* AMQuestion1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E83218DDFF92003572D7 /* AMQuestion1ViewController.m */; };
 		7105E83918DE002C003572D7 /* AMResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E83818DE002C003572D7 /* AMResultViewController.m */; };
 		7105E83D18DE10C2003572D7 /* AMAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E83C18DE10C2003572D7 /* AMAnswer.m */; };
-		7105E84018DE2396003572D7 /* AMSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E83F18DE2396003572D7 /* AMSecondViewController.m */; };
+		7105E84018DE2396003572D7 /* AMQuestion8ViewControler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E83F18DE2396003572D7 /* AMQuestion8ViewControler.m */; };
+		7105E84C18DE4E44003572D7 /* AMColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E84B18DE4E44003572D7 /* AMColorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,14 +58,16 @@
 		7105E82418DDFA1F003572D7 /* ColorQuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorQuizTests.m; sourceTree = "<group>"; };
 		7105E82E18DDFEBC003572D7 /* AMColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMColor.h; sourceTree = "<group>"; };
 		7105E82F18DDFEBC003572D7 /* AMColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMColor.m; sourceTree = "<group>"; };
-		7105E83118DDFF92003572D7 /* AMFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMFirstViewController.h; sourceTree = "<group>"; };
-		7105E83218DDFF92003572D7 /* AMFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMFirstViewController.m; sourceTree = "<group>"; };
+		7105E83118DDFF92003572D7 /* AMQuestion1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMQuestion1ViewController.h; sourceTree = "<group>"; };
+		7105E83218DDFF92003572D7 /* AMQuestion1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMQuestion1ViewController.m; sourceTree = "<group>"; };
 		7105E83718DE002C003572D7 /* AMResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMResultViewController.h; path = ../AMResultViewController.h; sourceTree = "<group>"; };
 		7105E83818DE002C003572D7 /* AMResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMResultViewController.m; path = ../AMResultViewController.m; sourceTree = "<group>"; };
 		7105E83B18DE10C2003572D7 /* AMAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAnswer.h; sourceTree = "<group>"; };
 		7105E83C18DE10C2003572D7 /* AMAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAnswer.m; sourceTree = "<group>"; };
-		7105E83E18DE2396003572D7 /* AMSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMSecondViewController.h; sourceTree = "<group>"; };
-		7105E83F18DE2396003572D7 /* AMSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMSecondViewController.m; sourceTree = "<group>"; };
+		7105E83E18DE2396003572D7 /* AMQuestion8ViewControler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMQuestion8ViewControler.h; sourceTree = "<group>"; };
+		7105E83F18DE2396003572D7 /* AMQuestion8ViewControler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMQuestion8ViewControler.m; sourceTree = "<group>"; };
+		7105E84A18DE4E44003572D7 /* AMColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMColorView.h; sourceTree = "<group>"; };
+		7105E84B18DE4E44003572D7 /* AMColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMColorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,16 +127,16 @@
 		7105E7FF18DDFA1E003572D7 /* ColorQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				7105E80818DDFA1E003572D7 /* AMAppDelegate.h */,
-				7105E80918DDFA1E003572D7 /* AMAppDelegate.m */,
 				7105E80B18DDFA1E003572D7 /* Main.storyboard */,
-				7105E83118DDFF92003572D7 /* AMFirstViewController.h */,
-				7105E83218DDFF92003572D7 /* AMFirstViewController.m */,
-				7105E83E18DE2396003572D7 /* AMSecondViewController.h */,
-				7105E83F18DE2396003572D7 /* AMSecondViewController.m */,
+				7105E83118DDFF92003572D7 /* AMQuestion1ViewController.h */,
+				7105E83218DDFF92003572D7 /* AMQuestion1ViewController.m */,
+				7105E83E18DE2396003572D7 /* AMQuestion8ViewControler.h */,
+				7105E83F18DE2396003572D7 /* AMQuestion8ViewControler.m */,
 				7105E83718DE002C003572D7 /* AMResultViewController.h */,
 				7105E83818DE002C003572D7 /* AMResultViewController.m */,
 				7105E81118DDFA1E003572D7 /* Images.xcassets */,
+				7105E84A18DE4E44003572D7 /* AMColorView.h */,
+				7105E84B18DE4E44003572D7 /* AMColorView.m */,
 				7105E83A18DE0288003572D7 /* Model */,
 				7105E80018DDFA1E003572D7 /* Supporting Files */,
 			);
@@ -143,6 +146,8 @@
 		7105E80018DDFA1E003572D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7105E80818DDFA1E003572D7 /* AMAppDelegate.h */,
+				7105E80918DDFA1E003572D7 /* AMAppDelegate.m */,
 				7105E80118DDFA1E003572D7 /* ColorQuiz-Info.plist */,
 				7105E80218DDFA1E003572D7 /* InfoPlist.strings */,
 				7105E80518DDFA1E003572D7 /* main.m */,
@@ -278,13 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7105E84C18DE4E44003572D7 /* AMColorView.m in Sources */,
 				7105E80A18DDFA1E003572D7 /* AMAppDelegate.m in Sources */,
 				7105E83D18DE10C2003572D7 /* AMAnswer.m in Sources */,
 				7105E83918DE002C003572D7 /* AMResultViewController.m in Sources */,
-				7105E84018DE2396003572D7 /* AMSecondViewController.m in Sources */,
+				7105E84018DE2396003572D7 /* AMQuestion8ViewControler.m in Sources */,
 				7105E83018DDFEBC003572D7 /* AMColor.m in Sources */,
 				7105E80618DDFA1E003572D7 /* main.m in Sources */,
-				7105E83318DDFF92003572D7 /* AMFirstViewController.m in Sources */,
+				7105E83318DDFF92003572D7 /* AMQuestion1ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +495,7 @@
 				7105E82A18DDFA1F003572D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7105E82B18DDFA1F003572D7 /* Build configuration list for PBXNativeTarget "ColorQuizTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +504,7 @@
 				7105E82D18DDFA1F003572D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

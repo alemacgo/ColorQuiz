@@ -12,7 +12,7 @@
 #import "AMColor.h"
 #import "AMAnswer.h"
 
-@interface AMSecondViewController : UITableViewController
+@interface AMQuestion8ViewControler : UITableViewController
 
 @property AMColor *currentColor;
 

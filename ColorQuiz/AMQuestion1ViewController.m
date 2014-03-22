@@ -6,15 +6,15 @@
 //  Copyright (c) 2014 M-ITI. All rights reserved.
 //
 
-#import "AMFirstViewController.h"
+#import "AMQuestion1ViewController.h"
 
-@interface AMFirstViewController () {
+@interface AMQuestion1ViewController () {
     NSArray *answers;
 }
 
 @end
 
-@implementation AMFirstViewController
+@implementation AMQuestion1ViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -140,7 +140,7 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     // Get the new view controller using [segue destinationViewController].
-    AMSecondViewController *rvc = [segue destinationViewController];
+    AMQuestion8ViewControler *rvc = [segue destinationViewController];
 
     // Pass the selected object to the new view controller.
     int index = self.tableView.indexPathForSelectedRow.row;

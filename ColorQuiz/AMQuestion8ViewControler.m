@@ -6,15 +6,15 @@
 //  Copyright (c) 2014 M-ITI. All rights reserved.
 //
 
-#import "AMSecondViewController.h"
+#import "AMQuestion8ViewControler.h"
 
-@interface AMSecondViewController () {
+@interface AMQuestion8ViewControler () {
     NSArray *answers;
 }
 
 @end
 
-@implementation AMSecondViewController
+@implementation AMQuestion8ViewControler
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
