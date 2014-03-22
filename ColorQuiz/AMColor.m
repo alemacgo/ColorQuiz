@@ -65,15 +65,16 @@
 }
 
 -(AMColor*)addColor:(AMColor*) otherColor {
-    self.blue += otherColor.blue;
-    self.green += otherColor.green;
-    self.yellow += otherColor.yellow;
-    self.red += otherColor.red;
-    self.purple += otherColor.purple;
-    self.pink += otherColor.pink;
-    self.black += otherColor.black;
-    self.orange += otherColor.orange;
-    return self;
+    AMColor* c = [[AMColor alloc] init];
+    c.blue = self.blue + otherColor.blue;
+    c.green = self.green + otherColor.green;
+    c.yellow = self.yellow + otherColor.yellow;
+    c.red = self.red + otherColor.red;
+    c.purple = self.purple + otherColor.purple;
+    c.pink = self.pink + otherColor.pink;
+    c.black = self.black + otherColor.black;
+    c.orange = self.orange + otherColor.orange;
+    return c;
 }
 
 @end
