@@ -14,13 +14,15 @@
 		7105E80618DDFA1E003572D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E80518DDFA1E003572D7 /* main.m */; };
 		7105E80A18DDFA1E003572D7 /* AMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E80918DDFA1E003572D7 /* AMAppDelegate.m */; };
 		7105E80D18DDFA1E003572D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7105E80B18DDFA1E003572D7 /* Main.storyboard */; };
-		7105E81018DDFA1E003572D7 /* AMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E80F18DDFA1E003572D7 /* AMViewController.m */; };
 		7105E81218DDFA1E003572D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7105E81118DDFA1E003572D7 /* Images.xcassets */; };
 		7105E81918DDFA1F003572D7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7105E81818DDFA1F003572D7 /* XCTest.framework */; };
 		7105E81A18DDFA1F003572D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7105E7F918DDFA1E003572D7 /* Foundation.framework */; };
 		7105E81B18DDFA1F003572D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7105E7FD18DDFA1E003572D7 /* UIKit.framework */; };
 		7105E82318DDFA1F003572D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7105E82118DDFA1F003572D7 /* InfoPlist.strings */; };
 		7105E82518DDFA1F003572D7 /* ColorQuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E82418DDFA1F003572D7 /* ColorQuizTests.m */; };
+		7105E83018DDFEBC003572D7 /* AMColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E82F18DDFEBC003572D7 /* AMColor.m */; };
+		7105E83318DDFF92003572D7 /* AMFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E83218DDFF92003572D7 /* AMFirstViewController.m */; };
+		7105E83918DE002C003572D7 /* AMResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E83818DE002C003572D7 /* AMResultViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +47,18 @@
 		7105E80818DDFA1E003572D7 /* AMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMAppDelegate.h; sourceTree = "<group>"; };
 		7105E80918DDFA1E003572D7 /* AMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMAppDelegate.m; sourceTree = "<group>"; };
 		7105E80C18DDFA1E003572D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7105E80E18DDFA1E003572D7 /* AMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMViewController.h; sourceTree = "<group>"; };
-		7105E80F18DDFA1E003572D7 /* AMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMViewController.m; sourceTree = "<group>"; };
 		7105E81118DDFA1E003572D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7105E81718DDFA1F003572D7 /* ColorQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7105E81818DDFA1F003572D7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7105E82018DDFA1F003572D7 /* ColorQuizTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorQuizTests-Info.plist"; sourceTree = "<group>"; };
 		7105E82218DDFA1F003572D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7105E82418DDFA1F003572D7 /* ColorQuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorQuizTests.m; sourceTree = "<group>"; };
+		7105E82E18DDFEBC003572D7 /* AMColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMColor.h; sourceTree = "<group>"; };
+		7105E82F18DDFEBC003572D7 /* AMColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMColor.m; sourceTree = "<group>"; };
+		7105E83118DDFF92003572D7 /* AMFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMFirstViewController.h; sourceTree = "<group>"; };
+		7105E83218DDFF92003572D7 /* AMFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMFirstViewController.m; sourceTree = "<group>"; };
+		7105E83718DE002C003572D7 /* AMResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMResultViewController.h; path = ../AMResultViewController.h; sourceTree = "<group>"; };
+		7105E83818DE002C003572D7 /* AMResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMResultViewController.m; path = ../AMResultViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +121,12 @@
 				7105E80818DDFA1E003572D7 /* AMAppDelegate.h */,
 				7105E80918DDFA1E003572D7 /* AMAppDelegate.m */,
 				7105E80B18DDFA1E003572D7 /* Main.storyboard */,
-				7105E80E18DDFA1E003572D7 /* AMViewController.h */,
-				7105E80F18DDFA1E003572D7 /* AMViewController.m */,
+				7105E83118DDFF92003572D7 /* AMFirstViewController.h */,
+				7105E83218DDFF92003572D7 /* AMFirstViewController.m */,
+				7105E83718DE002C003572D7 /* AMResultViewController.h */,
+				7105E83818DE002C003572D7 /* AMResultViewController.m */,
 				7105E81118DDFA1E003572D7 /* Images.xcassets */,
+				7105E83A18DE0288003572D7 /* Model */,
 				7105E80018DDFA1E003572D7 /* Supporting Files */,
 			);
 			path = ColorQuiz;
@@ -150,6 +159,15 @@
 				7105E82118DDFA1F003572D7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7105E83A18DE0288003572D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7105E82E18DDFEBC003572D7 /* AMColor.h */,
+				7105E82F18DDFEBC003572D7 /* AMColor.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,8 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7105E80A18DDFA1E003572D7 /* AMAppDelegate.m in Sources */,
-				7105E81018DDFA1E003572D7 /* AMViewController.m in Sources */,
+				7105E83918DE002C003572D7 /* AMResultViewController.m in Sources */,
+				7105E83018DDFEBC003572D7 /* AMColor.m in Sources */,
 				7105E80618DDFA1E003572D7 /* main.m in Sources */,
+				7105E83318DDFF92003572D7 /* AMFirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

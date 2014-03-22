@@ -1,5 +1,5 @@
 //
-//  AMViewController.h
+//  AMResultViewController.h
 //  ColorQuiz
 //
 //  Created by Alejandro Machado on 14/3/22.
@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AMColor.h"
 
-@interface AMViewController : UIViewController
+@interface AMResultViewController : UIViewController
 
 @end
