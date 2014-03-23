@@ -64,6 +64,10 @@
     return [self init];
 }
 
++(UIColor *)pinkColor{
+    return [UIColor colorWithRed:1.0f green:0.4f blue:1.0f alpha:1.0f];
+}
+
 -(AMColor*)addColor:(AMColor*) otherColor {
     AMColor* c = [[AMColor alloc] init];
     c.blue = self.blue + otherColor.blue;
@@ -75,6 +79,69 @@
     c.black = self.black + otherColor.black;
     c.orange = self.orange + otherColor.orange;
     return c;
+}
+
+// Objective C doesn't have tuples :(
+// This NSArray has the color (UIColor*) at index 0 and
+// the color name (NSString*) at index 1,
+// the color's personality adjectives (NSString*) at index 2
+-(NSArray*)getDominantColor {
+    int highestScore;
+    UIColor *dominantColor;
+    NSString *dominantColorName;
+    NSString *dominantColorAdjectives;
+    
+    if (self.blue > self.green) {
+        dominantColor = [UIColor blueColor];
+        dominantColorName = @"Blue";
+        dominantColorAdjectives = @"calm, friendly";
+        highestScore = self.blue;
+    }
+    else { // self.green > self.blue
+        dominantColor = [UIColor greenColor];
+        dominantColorName = @"Green";
+        dominantColorAdjectives = @"wild, outdoorsy";
+        highestScore = self.green;
+    }
+    if (self.yellow > highestScore) {
+        dominantColor = [UIColor yellowColor];
+        dominantColorName = @"Yellow";
+        dominantColorAdjectives = @"bright, happy";
+        highestScore = self.yellow;
+    }
+    if (self.red > highestScore) {
+        dominantColor = [UIColor redColor];
+        dominantColorName = @"Red";
+        dominantColorAdjectives = @"competitive, fiery";
+        highestScore = self.red;
+    }
+    if (self.purple > highestScore) {
+        dominantColor = [UIColor purpleColor];
+        dominantColorName = @"Purple";
+        dominantColorAdjectives = @"shy, quiet";
+        highestScore = self.purple;
+    }
+    if (self.pink > highestScore) {
+        dominantColor = [AMColor pinkColor];
+        dominantColorName = @"Pink";
+        dominantColorAdjectives = @"bubbly, fun";
+        highestScore = self.pink;
+    }
+    if (self.black > highestScore) {
+        dominantColor = [UIColor blackColor];
+        dominantColorName = @"Black";
+        dominantColorAdjectives = @"dark, reserved";
+        highestScore = self.black;
+    }
+    if (self.orange > highestScore) {
+        dominantColor = [UIColor orangeColor];
+        dominantColorName = @"Orange";
+        dominantColorAdjectives = @"fun, artistic";
+        highestScore = self.orange;
+    }
+    
+    MAX(self.blue, self.green);
+    return [NSArray arrayWithObjects:dominantColor, dominantColorName, dominantColorAdjectives, nil];
 }
 
 @end

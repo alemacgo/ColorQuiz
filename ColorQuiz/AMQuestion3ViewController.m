@@ -31,28 +31,28 @@
         
     // Include the options for this particular question
     answers = [NSArray arrayWithObjects:
-               [[AMAnswer alloc] initFromText:@"Swimming, relaxing"
+               [[AMAnswer alloc] initFromText:@"Language and literature"
                                     withColor:[[AMColor alloc]
                                                initFromColorName:@"blue"]],
-               [[AMAnswer alloc] initFromText:@"Being outside"
+               [[AMAnswer alloc] initFromText:@"Science"
                                     withColor:[[AMColor alloc]
                                                initFromColorName:@"green"]],
-               [[AMAnswer alloc] initFromText:@"Talking, partying"
+               [[AMAnswer alloc] initFromText:@"Math"
                                     withColor:[[AMColor alloc]
                                                initFromColorName:@"yellow"]],
-               [[AMAnswer alloc] initFromText:@"Playing sports"
+               [[AMAnswer alloc] initFromText:@"Physical education"
                                     withColor:[[AMColor alloc]
                                                initFromColorName:@"red"]],
-               [[AMAnswer alloc] initFromText:@"Reading, playing video games"
+               [[AMAnswer alloc] initFromText:@"History"
                                     withColor:[[AMColor alloc]
                                                initFromColorName:@"purple"]],
-               [[AMAnswer alloc] initFromText:@"Shopping, dressing up"
+               [[AMAnswer alloc] initFromText:@"Does lunch count?"
                                     withColor:[[AMColor alloc]
                                                initFromColorName:@"pink"]],
-               [[AMAnswer alloc] initFromText:@"Being alone, thinking"
+               [[AMAnswer alloc] initFromText:@"None!"
                                     withColor:[[AMColor alloc]
                                                initFromColorName:@"black"]],
-               [[AMAnswer alloc] initFromText:@"Drawing, painting, singing"
+               [[AMAnswer alloc] initFromText:@"Visual arts and music"
                                     withColor:[[AMColor alloc]
                                                initFromColorName:@"orange"]],
                nil];

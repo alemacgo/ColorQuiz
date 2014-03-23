@@ -23,5 +23,6 @@
 -(id)initFromColorName:(NSString*) colorName;
 
 -(AMColor*)addColor:(AMColor*) otherColor;
+-(NSArray*)getDominantColor;
 
 @end

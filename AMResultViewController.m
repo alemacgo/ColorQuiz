@@ -26,16 +26,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Compute the color
+    NSArray* result = [self.currentColor getDominantColor];
 
-    AMColorView* colorView = [[AMColorView alloc] initWithFrame:CGRectMake(0,0,196,196) withColor:[UIColor blueColor]];
+    AMColorView* colorView = [[AMColorView alloc] initWithFrame:CGRectMake(0,0,196,196) withColor:[result objectAtIndex:0]];
     
-    NSString* colorName;
-    colorName = @"Yellow";
+    NSString* colorName = [result objectAtIndex:1];
     
-    // Alter label
-    if ([self.view.subviews count] >= 1)
-        ((UILabel*) [self.view.subviews objectAtIndex:1]).text = colorName;
+    // Alter color name label
+    ((UILabel*) [self.view.subviews firstObject]).text = colorName;
+    
+    NSString *phrase = [NSString stringWithFormat:@"You are a %@ person.",
+                        [result objectAtIndex:2]];
+    ((UILabel*) [self.view.subviews objectAtIndex:1]).text = phrase;
     
     colorView.backgroundColor = [UIColor clearColor];
     colorView.center = self.view.center;

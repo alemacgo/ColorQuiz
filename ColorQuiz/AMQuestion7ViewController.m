@@ -31,28 +31,28 @@
     
     // Include the options for this particular question
     answers = [NSArray arrayWithObjects:
-               [[AMAnswer alloc] initFromText:@"Swimming, relaxing"
+               [[AMAnswer alloc] initFromText:@"Hey, pick me"
                                     withColor:[[AMColor alloc]
                                                initFromColorName:@"blue"]],
-               [[AMAnswer alloc] initFromText:@"Being outside"
+               [[AMAnswer alloc] initFromText:@"I'm here, pick me!"
                                     withColor:[[AMColor alloc]
                                                initFromColorName:@"green"]],
-               [[AMAnswer alloc] initFromText:@"Talking, partying"
+               [[AMAnswer alloc] initFromText:@"Pick me 😃"
                                     withColor:[[AMColor alloc]
                                                initFromColorName:@"yellow"]],
-               [[AMAnswer alloc] initFromText:@"Playing sports"
+               [[AMAnswer alloc] initFromText:@"Yo, pick me!"
                                     withColor:[[AMColor alloc]
                                                initFromColorName:@"red"]],
-               [[AMAnswer alloc] initFromText:@"Reading, playing video games"
+               [[AMAnswer alloc] initFromText:@"Pick me, if you want..."
                                     withColor:[[AMColor alloc]
                                                initFromColorName:@"purple"]],
-               [[AMAnswer alloc] initFromText:@"Shopping, dressing up"
+               [[AMAnswer alloc] initFromText:@"*Pick me*"
                                     withColor:[[AMColor alloc]
                                                initFromColorName:@"pink"]],
-               [[AMAnswer alloc] initFromText:@"Being alone, thinking"
+               [[AMAnswer alloc] initFromText:@"You sure you wanna pick me?"
                                     withColor:[[AMColor alloc]
                                                initFromColorName:@"black"]],
-               [[AMAnswer alloc] initFromText:@"Drawing, painting, singing"
+               [[AMAnswer alloc] initFromText:@"!em kciP"
                                     withColor:[[AMColor alloc]
                                                initFromColorName:@"orange"]],
                nil];
