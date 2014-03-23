@@ -1,5 +1,5 @@
 //
-//  AMSecondViewController.h
+//  AMFirstViewController.h
 //  ColorQuiz
 //
 //  Created by Alejandro Machado on 14/3/22.
@@ -7,13 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AMResultViewController.h"
+#import "AMQuestion8ViewController.h"
 
 #import "AMColor.h"
 #import "AMAnswer.h"
 
-@interface AMQuestion8ViewControler : UITableViewController
+@interface AMQuestion7ViewController : UITableViewController
 
-@property AMColor *currentColor;
+@property AMColor* currentColor;
 
 @end

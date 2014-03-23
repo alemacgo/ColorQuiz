@@ -24,8 +24,14 @@
 		7105E83318DDFF92003572D7 /* AMQuestion1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E83218DDFF92003572D7 /* AMQuestion1ViewController.m */; };
 		7105E83918DE002C003572D7 /* AMResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E83818DE002C003572D7 /* AMResultViewController.m */; };
 		7105E83D18DE10C2003572D7 /* AMAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E83C18DE10C2003572D7 /* AMAnswer.m */; };
-		7105E84018DE2396003572D7 /* AMQuestion8ViewControler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E83F18DE2396003572D7 /* AMQuestion8ViewControler.m */; };
+		7105E84018DE2396003572D7 /* AMQuestion8ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E83F18DE2396003572D7 /* AMQuestion8ViewController.m */; };
 		7105E84C18DE4E44003572D7 /* AMColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E84B18DE4E44003572D7 /* AMColorView.m */; };
+		7105E84F18DE5AF2003572D7 /* AMQuestion2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E84E18DE5AF2003572D7 /* AMQuestion2ViewController.m */; };
+		7105E85218DE5B1B003572D7 /* AMQuestion3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E85118DE5B1B003572D7 /* AMQuestion3ViewController.m */; };
+		7105E85518DE5B33003572D7 /* AMQuestion4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E85418DE5B33003572D7 /* AMQuestion4ViewController.m */; };
+		7105E85818DE5B48003572D7 /* AMQuestion5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E85718DE5B48003572D7 /* AMQuestion5ViewController.m */; };
+		7105E85B18DE5B58003572D7 /* AMQuestion6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E85A18DE5B58003572D7 /* AMQuestion6ViewController.m */; };
+		7105E85E18DE5B69003572D7 /* AMQuestion7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E85D18DE5B69003572D7 /* AMQuestion7ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,10 +70,22 @@
 		7105E83818DE002C003572D7 /* AMResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMResultViewController.m; path = ../AMResultViewController.m; sourceTree = "<group>"; };
 		7105E83B18DE10C2003572D7 /* AMAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAnswer.h; sourceTree = "<group>"; };
 		7105E83C18DE10C2003572D7 /* AMAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAnswer.m; sourceTree = "<group>"; };
-		7105E83E18DE2396003572D7 /* AMQuestion8ViewControler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMQuestion8ViewControler.h; sourceTree = "<group>"; };
-		7105E83F18DE2396003572D7 /* AMQuestion8ViewControler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMQuestion8ViewControler.m; sourceTree = "<group>"; };
+		7105E83E18DE2396003572D7 /* AMQuestion8ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMQuestion8ViewController.h; sourceTree = "<group>"; };
+		7105E83F18DE2396003572D7 /* AMQuestion8ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMQuestion8ViewController.m; sourceTree = "<group>"; };
 		7105E84A18DE4E44003572D7 /* AMColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMColorView.h; sourceTree = "<group>"; };
 		7105E84B18DE4E44003572D7 /* AMColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMColorView.m; sourceTree = "<group>"; };
+		7105E84D18DE5AF2003572D7 /* AMQuestion2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMQuestion2ViewController.h; sourceTree = "<group>"; };
+		7105E84E18DE5AF2003572D7 /* AMQuestion2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMQuestion2ViewController.m; sourceTree = "<group>"; };
+		7105E85018DE5B1B003572D7 /* AMQuestion3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMQuestion3ViewController.h; sourceTree = "<group>"; };
+		7105E85118DE5B1B003572D7 /* AMQuestion3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMQuestion3ViewController.m; sourceTree = "<group>"; };
+		7105E85318DE5B33003572D7 /* AMQuestion4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMQuestion4ViewController.h; sourceTree = "<group>"; };
+		7105E85418DE5B33003572D7 /* AMQuestion4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMQuestion4ViewController.m; sourceTree = "<group>"; };
+		7105E85618DE5B48003572D7 /* AMQuestion5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMQuestion5ViewController.h; sourceTree = "<group>"; };
+		7105E85718DE5B48003572D7 /* AMQuestion5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMQuestion5ViewController.m; sourceTree = "<group>"; };
+		7105E85918DE5B58003572D7 /* AMQuestion6ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMQuestion6ViewController.h; sourceTree = "<group>"; };
+		7105E85A18DE5B58003572D7 /* AMQuestion6ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMQuestion6ViewController.m; sourceTree = "<group>"; };
+		7105E85C18DE5B69003572D7 /* AMQuestion7ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMQuestion7ViewController.h; sourceTree = "<group>"; };
+		7105E85D18DE5B69003572D7 /* AMQuestion7ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMQuestion7ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,13 +148,24 @@
 				7105E80B18DDFA1E003572D7 /* Main.storyboard */,
 				7105E83118DDFF92003572D7 /* AMQuestion1ViewController.h */,
 				7105E83218DDFF92003572D7 /* AMQuestion1ViewController.m */,
-				7105E83E18DE2396003572D7 /* AMQuestion8ViewControler.h */,
-				7105E83F18DE2396003572D7 /* AMQuestion8ViewControler.m */,
+				7105E84D18DE5AF2003572D7 /* AMQuestion2ViewController.h */,
+				7105E84E18DE5AF2003572D7 /* AMQuestion2ViewController.m */,
+				7105E85018DE5B1B003572D7 /* AMQuestion3ViewController.h */,
+				7105E85118DE5B1B003572D7 /* AMQuestion3ViewController.m */,
+				7105E85318DE5B33003572D7 /* AMQuestion4ViewController.h */,
+				7105E85418DE5B33003572D7 /* AMQuestion4ViewController.m */,
+				7105E85618DE5B48003572D7 /* AMQuestion5ViewController.h */,
+				7105E85718DE5B48003572D7 /* AMQuestion5ViewController.m */,
+				7105E85918DE5B58003572D7 /* AMQuestion6ViewController.h */,
+				7105E85A18DE5B58003572D7 /* AMQuestion6ViewController.m */,
+				7105E85C18DE5B69003572D7 /* AMQuestion7ViewController.h */,
+				7105E85D18DE5B69003572D7 /* AMQuestion7ViewController.m */,
+				7105E83E18DE2396003572D7 /* AMQuestion8ViewController.h */,
+				7105E83F18DE2396003572D7 /* AMQuestion8ViewController.m */,
 				7105E83718DE002C003572D7 /* AMResultViewController.h */,
 				7105E83818DE002C003572D7 /* AMResultViewController.m */,
 				7105E81118DDFA1E003572D7 /* Images.xcassets */,
-				7105E84A18DE4E44003572D7 /* AMColorView.h */,
-				7105E84B18DE4E44003572D7 /* AMColorView.m */,
+				7105E85F18DE5B73003572D7 /* Views */,
 				7105E83A18DE0288003572D7 /* Model */,
 				7105E80018DDFA1E003572D7 /* Supporting Files */,
 			);
@@ -183,6 +212,15 @@
 				7105E82F18DDFEBC003572D7 /* AMColor.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		7105E85F18DE5B73003572D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7105E84A18DE4E44003572D7 /* AMColorView.h */,
+				7105E84B18DE4E44003572D7 /* AMColorView.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,11 +321,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7105E85218DE5B1B003572D7 /* AMQuestion3ViewController.m in Sources */,
 				7105E84C18DE4E44003572D7 /* AMColorView.m in Sources */,
+				7105E85B18DE5B58003572D7 /* AMQuestion6ViewController.m in Sources */,
+				7105E85518DE5B33003572D7 /* AMQuestion4ViewController.m in Sources */,
 				7105E80A18DDFA1E003572D7 /* AMAppDelegate.m in Sources */,
+				7105E85818DE5B48003572D7 /* AMQuestion5ViewController.m in Sources */,
+				7105E84F18DE5AF2003572D7 /* AMQuestion2ViewController.m in Sources */,
 				7105E83D18DE10C2003572D7 /* AMAnswer.m in Sources */,
+				7105E85E18DE5B69003572D7 /* AMQuestion7ViewController.m in Sources */,
 				7105E83918DE002C003572D7 /* AMResultViewController.m in Sources */,
-				7105E84018DE2396003572D7 /* AMQuestion8ViewControler.m in Sources */,
+				7105E84018DE2396003572D7 /* AMQuestion8ViewController.m in Sources */,
 				7105E83018DDFEBC003572D7 /* AMColor.m in Sources */,
 				7105E80618DDFA1E003572D7 /* main.m in Sources */,
 				7105E83318DDFF92003572D7 /* AMQuestion1ViewController.m in Sources */,

@@ -140,7 +140,7 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     // Get the new view controller using [segue destinationViewController].
-    AMQuestion8ViewControler *rvc = [segue destinationViewController];
+    AMQuestion2ViewController *rvc = [segue destinationViewController];
 
     // Pass the selected object to the new view controller.
     int index = self.tableView.indexPathForSelectedRow.row;

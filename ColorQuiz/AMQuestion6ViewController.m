@@ -6,15 +6,15 @@
 //  Copyright (c) 2014 M-ITI. All rights reserved.
 //
 
-#import "AMQuestion8ViewControler.h"
+#import "AMQuestion6ViewController.h"
 
-@interface AMQuestion8ViewControler () {
+@interface AMQuestion6ViewController () {
     NSArray *answers;
 }
 
 @end
 
-@implementation AMQuestion8ViewControler
+@implementation AMQuestion6ViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -28,7 +28,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+        
     // Include the options for this particular question
     answers = [NSArray arrayWithObjects:
                [[AMAnswer alloc] initFromText:@"Swimming, relaxing"
@@ -56,8 +56,6 @@
                                     withColor:[[AMColor alloc]
                                                initFromColorName:@"orange"]],
                nil];
-    //NSLog(@"%@\n", currentColor);
-    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -140,7 +138,7 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     // Get the new view controller using [segue destinationViewController].
-    AMResultViewController *rvc = [segue destinationViewController];
+    AMQuestion7ViewController *rvc = [segue destinationViewController];
     
     // Pass the selected object to the new view controller.
     int index = self.tableView.indexPathForSelectedRow.row;

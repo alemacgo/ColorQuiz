@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AMQuestion2ViewController.h"
+#import "AMQuestion3ViewController.h"
 
 #import "AMColor.h"
 #import "AMAnswer.h"
 
-@interface AMQuestion1ViewController : UITableViewController
+@interface AMQuestion2ViewController : UITableViewController
 
 @property AMColor* currentColor;
 
