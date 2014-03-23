@@ -56,6 +56,8 @@
                                     withColor:[[AMColor alloc]
                                                initFromColorName:@"orange"]],
                nil];
+    
+    answers = [answers shuffledArray];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     

@@ -28,7 +28,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-        
+    
     // Include the options for this particular question
     answers = [NSArray arrayWithObjects:
                [[AMAnswer alloc] initFromText:@"Swimming, relaxing"
@@ -56,6 +56,10 @@
                                     withColor:[[AMColor alloc]
                                                initFromColorName:@"orange"]],
                nil];
+    
+    answers = [answers shuffledArray];
+    //NSLog(@"%@\n", currentColor);
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -138,7 +142,7 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     // Get the new view controller using [segue destinationViewController].
-    AMQuestion8ViewController *rvc = [segue destinationViewController];
+    AMResultViewController *rvc = [segue destinationViewController];
     
     // Pass the selected object to the new view controller.
     int index = self.tableView.indexPathForSelectedRow.row;

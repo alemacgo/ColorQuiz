@@ -8,9 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "AMQuestion7ViewController.h"
-
 #import "AMColor.h"
 #import "AMAnswer.h"
+#import "NSArray+Shuffle.h"
 
 @interface AMQuestion6ViewController : UITableViewController
 

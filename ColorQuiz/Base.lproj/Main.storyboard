@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--Question1 View Controller - Which hobbie do you prefer?-->
+        <!--Question1 View Controller - Pick a favorite hobby-->
         <scene sceneID="o5q-nY-k66">
             <objects>
                 <tableViewController id="lL9-OS-VMo" customClass="AMQuestion1ViewController" sceneMemberID="viewController">
@@ -30,13 +30,13 @@
                             <outlet property="delegate" destination="lL9-OS-VMo" id="C7J-CU-uc7"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Which hobbie do you prefer?" id="mvV-k3-g0v"/>
+                    <navigationItem key="navigationItem" title="Pick a favorite hobby" id="mvV-k3-g0v"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lFK-pt-NSW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1072" y="102"/>
         </scene>
-        <!--Question5 View Controller-->
+        <!--Question5 View Controller - Where would you rather be?-->
         <scene sceneID="j9f-4f-egY">
             <objects>
                 <tableViewController id="VkH-jm-Is5" customClass="AMQuestion5ViewController" sceneMemberID="viewController">
@@ -62,13 +62,13 @@
                             <outlet property="delegate" destination="VkH-jm-Is5" id="5WI-JF-eFk"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="YH8-7R-AoR"/>
+                    <navigationItem key="navigationItem" title="Where would you rather be?" id="YH8-7R-AoR"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3dn-D9-OtF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1072" y="901"/>
         </scene>
-        <!--Question6 View Controller-->
+        <!--Question6 View Controller - What is your favorite fruit?-->
         <scene sceneID="Nq2-cf-NNa">
             <objects>
                 <tableViewController id="779-wL-TuT" customClass="AMQuestion6ViewController" sceneMemberID="viewController">
@@ -94,13 +94,13 @@
                             <outlet property="delegate" destination="779-wL-TuT" id="sWc-Cn-LsS"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="zhZ-Tf-uGY"/>
+                    <navigationItem key="navigationItem" title="What is your favorite fruit?" id="zhZ-Tf-uGY"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zSc-Zw-Wyz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1543" y="901"/>
         </scene>
-        <!--Question7 View Controller-->
+        <!--Question7 View Controller - Now, let fate decide-->
         <scene sceneID="6rL-rb-2BJ">
             <objects>
                 <tableViewController id="d4X-KW-FRC" customClass="AMQuestion7ViewController" sceneMemberID="viewController">
@@ -117,7 +117,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="OSC-wb-ixo" kind="push" id="fGE-3w-eoB"/>
+                                    <segue destination="Tf3-wk-Sm4" kind="push" id="Wcb-5b-A4v"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -126,43 +126,11 @@
                             <outlet property="delegate" destination="d4X-KW-FRC" id="Jf0-Ja-uqT"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="e1C-tq-bze"/>
+                    <navigationItem key="navigationItem" title="Now, let fate decide" id="e1C-tq-bze"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RlD-4o-bMc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1989" y="901"/>
-        </scene>
-        <!--Question8 View Controller-->
-        <scene sceneID="9J4-Tf-2Xv">
-            <objects>
-                <tableViewController id="OSC-wb-ixo" customClass="AMQuestion8ViewController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="FHv-le-b8x">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" restorationIdentifier="Cell8" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="aCr-xu-zJ9">
-                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aCr-xu-zJ9" id="fAf-mC-HN0">
-                                    <rect key="frame" x="0.0" y="0.0" width="287" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="Tf3-wk-Sm4" kind="push" id="7EB-j5-gAl"/>
-                                </connections>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="OSC-wb-ixo" id="WCx-6I-BPo"/>
-                            <outlet property="delegate" destination="OSC-wb-ixo" id="0RH-FR-eoX"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" id="sjC-wz-tWF"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qwb-ky-HUv" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2461" y="901"/>
         </scene>
         <!--Result View Controller-->
         <scene sceneID="ddE-WK-EEj">
@@ -203,7 +171,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mzj-e9-Mir" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2912" y="901"/>
+            <point key="canvasLocation" x="2461" y="901"/>
         </scene>
         <!--Question2 View Controller - What is your personality like?-->
         <scene sceneID="R5F-eQ-hMo">
@@ -237,7 +205,7 @@
             </objects>
             <point key="canvasLocation" x="1543" y="102"/>
         </scene>
-        <!--Question3 View Controller-->
+        <!--Question3 View Controller - Favorite school subject?-->
         <scene sceneID="WE1-vS-K0j">
             <objects>
                 <tableViewController id="czz-bt-qCM" customClass="AMQuestion3ViewController" sceneMemberID="viewController">
@@ -263,13 +231,13 @@
                             <outlet property="delegate" destination="czz-bt-qCM" id="vcu-6e-elo"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="235-vX-8Xm"/>
+                    <navigationItem key="navigationItem" title="Favorite school subject?" id="235-vX-8Xm"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zWJ-uy-RkD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1989" y="102"/>
         </scene>
-        <!--Question4 View Controller-->
+        <!--Question4 View Controller - What do you typically wear?-->
         <scene sceneID="mXY-QH-gVd">
             <objects>
                 <tableViewController id="S7R-ke-Qus" customClass="AMQuestion4ViewController" sceneMemberID="viewController">
@@ -295,7 +263,7 @@
                             <outlet property="delegate" destination="S7R-ke-Qus" id="j5U-jn-HIN"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="SrF-dZ-91o"/>
+                    <navigationItem key="navigationItem" title="What do you typically wear?" id="SrF-dZ-91o"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ErV-sO-7SR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

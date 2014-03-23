@@ -24,7 +24,6 @@
 		7105E83318DDFF92003572D7 /* AMQuestion1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E83218DDFF92003572D7 /* AMQuestion1ViewController.m */; };
 		7105E83918DE002C003572D7 /* AMResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E83818DE002C003572D7 /* AMResultViewController.m */; };
 		7105E83D18DE10C2003572D7 /* AMAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E83C18DE10C2003572D7 /* AMAnswer.m */; };
-		7105E84018DE2396003572D7 /* AMQuestion8ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E83F18DE2396003572D7 /* AMQuestion8ViewController.m */; };
 		7105E84C18DE4E44003572D7 /* AMColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E84B18DE4E44003572D7 /* AMColorView.m */; };
 		7105E84F18DE5AF2003572D7 /* AMQuestion2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E84E18DE5AF2003572D7 /* AMQuestion2ViewController.m */; };
 		7105E85218DE5B1B003572D7 /* AMQuestion3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E85118DE5B1B003572D7 /* AMQuestion3ViewController.m */; };
@@ -32,6 +31,7 @@
 		7105E85818DE5B48003572D7 /* AMQuestion5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E85718DE5B48003572D7 /* AMQuestion5ViewController.m */; };
 		7105E85B18DE5B58003572D7 /* AMQuestion6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E85A18DE5B58003572D7 /* AMQuestion6ViewController.m */; };
 		7105E85E18DE5B69003572D7 /* AMQuestion7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E85D18DE5B69003572D7 /* AMQuestion7ViewController.m */; };
+		7105E86218DE67F3003572D7 /* NSArray+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7105E86018DE67F3003572D7 /* NSArray+Shuffle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,8 +70,6 @@
 		7105E83818DE002C003572D7 /* AMResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMResultViewController.m; path = ../AMResultViewController.m; sourceTree = "<group>"; };
 		7105E83B18DE10C2003572D7 /* AMAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMAnswer.h; sourceTree = "<group>"; };
 		7105E83C18DE10C2003572D7 /* AMAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMAnswer.m; sourceTree = "<group>"; };
-		7105E83E18DE2396003572D7 /* AMQuestion8ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMQuestion8ViewController.h; sourceTree = "<group>"; };
-		7105E83F18DE2396003572D7 /* AMQuestion8ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMQuestion8ViewController.m; sourceTree = "<group>"; };
 		7105E84A18DE4E44003572D7 /* AMColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMColorView.h; sourceTree = "<group>"; };
 		7105E84B18DE4E44003572D7 /* AMColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMColorView.m; sourceTree = "<group>"; };
 		7105E84D18DE5AF2003572D7 /* AMQuestion2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMQuestion2ViewController.h; sourceTree = "<group>"; };
@@ -86,6 +84,8 @@
 		7105E85A18DE5B58003572D7 /* AMQuestion6ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMQuestion6ViewController.m; sourceTree = "<group>"; };
 		7105E85C18DE5B69003572D7 /* AMQuestion7ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMQuestion7ViewController.h; sourceTree = "<group>"; };
 		7105E85D18DE5B69003572D7 /* AMQuestion7ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMQuestion7ViewController.m; sourceTree = "<group>"; };
+		7105E86018DE67F3003572D7 /* NSArray+Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Shuffle.m"; path = "../../../../Downloads/NSArray+Shuffle.m"; sourceTree = "<group>"; };
+		7105E86118DE67F3003572D7 /* NSArray+Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Shuffle.h"; path = "../../../../Downloads/NSArray+Shuffle.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,8 +160,6 @@
 				7105E85A18DE5B58003572D7 /* AMQuestion6ViewController.m */,
 				7105E85C18DE5B69003572D7 /* AMQuestion7ViewController.h */,
 				7105E85D18DE5B69003572D7 /* AMQuestion7ViewController.m */,
-				7105E83E18DE2396003572D7 /* AMQuestion8ViewController.h */,
-				7105E83F18DE2396003572D7 /* AMQuestion8ViewController.m */,
 				7105E83718DE002C003572D7 /* AMResultViewController.h */,
 				7105E83818DE002C003572D7 /* AMResultViewController.m */,
 				7105E81118DDFA1E003572D7 /* Images.xcassets */,
@@ -175,6 +173,8 @@
 		7105E80018DDFA1E003572D7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7105E86118DE67F3003572D7 /* NSArray+Shuffle.h */,
+				7105E86018DE67F3003572D7 /* NSArray+Shuffle.m */,
 				7105E80818DDFA1E003572D7 /* AMAppDelegate.h */,
 				7105E80918DDFA1E003572D7 /* AMAppDelegate.m */,
 				7105E80118DDFA1E003572D7 /* ColorQuiz-Info.plist */,
@@ -331,7 +331,7 @@
 				7105E83D18DE10C2003572D7 /* AMAnswer.m in Sources */,
 				7105E85E18DE5B69003572D7 /* AMQuestion7ViewController.m in Sources */,
 				7105E83918DE002C003572D7 /* AMResultViewController.m in Sources */,
-				7105E84018DE2396003572D7 /* AMQuestion8ViewController.m in Sources */,
+				7105E86218DE67F3003572D7 /* NSArray+Shuffle.m in Sources */,
 				7105E83018DDFEBC003572D7 /* AMColor.m in Sources */,
 				7105E80618DDFA1E003572D7 /* main.m in Sources */,
 				7105E83318DDFF92003572D7 /* AMQuestion1ViewController.m in Sources */,
