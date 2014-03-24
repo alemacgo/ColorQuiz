@@ -31,28 +31,28 @@
         
     // Include the options for this particular question
     answers = [NSArray arrayWithObjects:
-               [[AMAnswer alloc] initFromText:@"Swimming, relaxing"
+               [[AMAnswer alloc] initFromText:@"In the water"
                                     withColor:[[AMColor alloc]
                                                initFromColorName:@"blue"]],
-               [[AMAnswer alloc] initFromText:@"Being outside"
+               [[AMAnswer alloc] initFromText:@"In a forest"
                                     withColor:[[AMColor alloc]
                                                initFromColorName:@"green"]],
-               [[AMAnswer alloc] initFromText:@"Talking, partying"
+               [[AMAnswer alloc] initFromText:@"At a party"
                                     withColor:[[AMColor alloc]
                                                initFromColorName:@"yellow"]],
-               [[AMAnswer alloc] initFromText:@"Playing sports"
+               [[AMAnswer alloc] initFromText:@"At a soccer game"
                                     withColor:[[AMColor alloc]
                                                initFromColorName:@"red"]],
-               [[AMAnswer alloc] initFromText:@"Reading, playing video games"
+               [[AMAnswer alloc] initFromText:@"Alone, to read or whatever"
                                     withColor:[[AMColor alloc]
                                                initFromColorName:@"purple"]],
-               [[AMAnswer alloc] initFromText:@"Shopping, dressing up"
+               [[AMAnswer alloc] initFromText:@"At the spa"
                                     withColor:[[AMColor alloc]
                                                initFromColorName:@"pink"]],
-               [[AMAnswer alloc] initFromText:@"Being alone, thinking"
+               [[AMAnswer alloc] initFromText:@"Alone in my room"
                                     withColor:[[AMColor alloc]
                                                initFromColorName:@"black"]],
-               [[AMAnswer alloc] initFromText:@"Drawing, painting, singing"
+               [[AMAnswer alloc] initFromText:@"In a museum"
                                     withColor:[[AMColor alloc]
                                                initFromColorName:@"orange"]],
                nil];
